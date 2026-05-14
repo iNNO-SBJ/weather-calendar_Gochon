@@ -9,10 +9,10 @@ from astral.sun import sun, dawn as astral_dawn, dusk as astral_dusk
 import ephem
 
 # --- [1. 설정] ---
-NX = int(os.environ.get('KMA_NX', 60))
-NY = int(os.environ.get('KMA_NY', 127))
-LOCATION_NAME = os.environ.get('LOCATION_NAME', '내 위치')
-REG_ID_TEMP = os.environ.get('REG_ID_TEMP', '11B10101')
+NX = int(os.environ.get('KMA_NX', 56))
+NY = int(os.environ.get('KMA_NY', 125))
+LOCATION_NAME = os.environ.get('LOCATION_NAME', '부평')
+REG_ID_TEMP = os.environ.get('REG_ID_TEMP', '11B20201')
 REG_ID_LAND = os.environ.get('REG_ID_LAND', '11B00000')
 API_KEY = os.environ['KMA_API_KEY']
 
